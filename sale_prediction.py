@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import sklearn
-import sklearn import preprocessing
+from sklearn import preprocessing
 
 loaded_model = pickle.load(open "sale-advertising-model.h5","rb")
 

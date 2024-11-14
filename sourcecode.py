@@ -11,7 +11,7 @@ st.sidebar.header('User Input Parameters')
 def user_input_features():  #This is user function
     tv = st.sidebar.slider('TV', 0.0, 400.0, 0.0)  #('lable name', min value, max value, default value)
     radio = st.sidebar.slider('Radio',0.0, 400.0, 0.0)
-    newspaper = st.sidebar.slider('Newspaper', 0.0, 200, 0.0)
+    newspaper = st.sidebar.slider('Newspaper', 0.0, 200.0, 0.0)
     data = {'TV': tv,  
             'Radio': radio,
             'Newspaper': newspaper}

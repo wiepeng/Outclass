@@ -19,6 +19,8 @@ def user_input_features():  #This is user function
     return features
 
 df = user_input_features()
+st.subheader('User Input parameters')
+st.write(df)
 
 modelsales = pickle.load(open("modelsales.h5", "rb")) #rb: read binary
 new_pred = modelsales.predict(df) # testing (examination)

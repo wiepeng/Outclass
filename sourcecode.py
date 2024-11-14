@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import pickle
 
-st.write("Advertising-Sales App")  
+st.write("# Advertising-Sales App")  
 st.write("This app predicts the **Sales** value!")
 
 st.sidebar.header('User Input Parameters')

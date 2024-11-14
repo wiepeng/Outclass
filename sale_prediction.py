@@ -4,7 +4,7 @@ import pickle
 import sklearn
 from sklearn import preprocessing
 
-loaded_model = pickle.load(open "sale-advertising-model.h5","rb")
+loaded_model = pickle.load(open("sale-advertising-model.h5","rb")
 
                         
 
